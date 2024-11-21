@@ -108,7 +108,6 @@ class EyeLinkWrapper:
             pylink.openGraphics()
 
             # Configure calibration settings
-            #self.el_tracker.sendCommand("enable_mouse_simulation = YES")
             self.el_tracker.sendCommand("calibration_type = HV9")
             self.el_tracker.sendCommand("generate_default_targets = YES")
             self.el_tracker.sendCommand("calibration_area_proportion = 0.7 0.65")
